@@ -1,0 +1,15 @@
+{
+    "name": "inkyn/php-s1-07",
+    "autoload": {
+        "psr-4": {
+            "Inkyn\\PhpS107\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Inbisat Naveed",
+            "email": "inkyn2002@gmail.com"
+        }
+    ],
+    "require": {}
+}

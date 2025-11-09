@@ -1,0 +1,21 @@
+
+# Archivos y carpetas que Git no debe rastrear
+
+# Configuraciones locales
+.vscode/
+.idea/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# XAMPP o PHP local
+htdocs/
+vendor/
+composer.lock
+*.log
+
+# Archivos de caché
+*.tmp
+*.cache
+*.bak
