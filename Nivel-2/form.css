@@ -1,0 +1,71 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+    background: linear-gradient(135deg, #a5e9d4 0%, #f8c8dc 100%);
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #e2f0cb;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: "Lucida Handwriting", cursive;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+label {
+    
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    border: 2px solid #bdbcbc;
+    padding: 5px;
+
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    border-color: #667eea;
+    outline: none;
+}
+
+.radio-group {
+    margin: 10px 0;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+.submit-btn {
+    background-color:#a36c5b;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color:#d44720;
+}
+
