@@ -25,9 +25,8 @@
             
             if (empty($errors)) {
                 require 'sessions.php';
-                startSession();
+                startSession(); 
                 saveToSession($name, $email, $userType, $userComment);
-                header('Location: exercise-1-N1.php');
                 exit;
             }
         }
